@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto';
+  }
+  .header h5{
+      font-size: 20px;
+      text-transform: uppercase;
+  }
+  .header{
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 15px 40px;
+      display: flex;
+  }
+  .section{
+      position:relative;
+      height:130vh;
+  }
+  /*.section .section-center{position:absolute;top:50%;left:0;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}*/
+  #booking{
+      background-image:url(../img/home_2.jpg);
+      background-size:cover;
+      background-position:center
+  }
+  #booking::before{
+      content:'';
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:0;
+      top:0;
+      /*background:rgba(0,0,0,.6)*/
+  }
+  .float-right {
+      float: right!important;
+  }
+  .booking-form>form{
+       background: rgba(0, 0, 0, 0.7);
+       padding:80px 55px 40px 55px;
+      border-radius:10px;
+      margin-top: 50px !important;
+      color: #ffffff;
+  }
+  .booking-form .form-group{
+      position:relative;
+      margin-bottom:30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      /*background-color:#000000;*/
+  }
+  .booking-form .form-label{
+      color:#fff;
+      font-size:12px;
+      font-weight:400;
+      margin-bottom:5px;
+      display:block;
+      text-transform:uppercase;
+  }
+  .submit-btn{
+      color:#ffffff;
+      background-color:#E58934;
+      border:none;
+      font-size: 14px;
+      border-radius:3px;
+      text-transform:uppercase;
+      padding: 10px 40px; 
+  }
+  .submit-btn:hover, active{
+      color:#ffffff;
+      background-color:#E58934;
+  }
+  .left-side-text{
+      margin-top: 90px !important;
+  }
+
+  .left-side-text p{
+      margin-top: 50px;
+      color: #ffffff;
+      font-size: 54px;
+      letter-spacing: 4.2px;
+  }
+  .mt-1{margin-top: 7px;color: #ffffff;padding-right: 10px;}
+  .d-flex{display: flex;}
+  .left-side-text h1{
+      margin-top: 15px;
+      margin-bottom: 60px;
+      color: #ffffff;
+      letter-spacing: .31rem;
+      font-size: 80px;
+      text-transform: uppercase;
+      /* font-weight: bolder; */
+  }
+  .sign-out-btn{
+      background-color: transparent;
+      font-size: 25px;
+  }
+  input[type="text"]
+          {
+          border: 0;
+          border-bottom: 2px solid #E58934;
+          outline: 0;
+          border-radius: 0;
+          -webkit-box-shadow: 0 4px 6px -6px #EC7303;
+          -moz-box-shadow: 0 4px 6px -6px #EC7303;
+          box-shadow: 0 4px 6px -6px #EC7303;
+          
+  }
+  .form-control{
+          background-color:#000000;
+          border: 0;
+          border-bottom: 2px solid #E58934;
+          outline: 0;
+          margin: 37px 0;
+          -webkit-box-shadow: 0 4px 6px -6px #EC7303;
+          -moz-box-shadow: 0 4px 6px -6px #EC7303;
+          box-shadow: 0 4px 6px -6px #EC7303;
+  }
+  .form-control:focus {
+       border-color:#EC7303; 
+       outline: 0;
+       -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px transparent; 
+       box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px transparent; 
+  }
+  select{
+      background-color:#000000;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-size: 16px;
+    opacity: 1; 
+  }
+  ::placeholder {
+    color: #fff!important;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: red;
+  }
+
+  .form-group label {
+      font-size: 14px;
+  }
+
+
+  
